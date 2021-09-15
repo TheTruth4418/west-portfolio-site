@@ -1,0 +1,18 @@
+#projects {
+  list-style: none;
+}
+
+#projects li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#projects li img {
+  border-radius: 25px;
+  border: 2px solid black;
+  border-color: black;
+  background: #d3d3d3;
+  width: 275px;
+  height: 220px;
+}
+/*# sourceMappingURL=index.css.map */
