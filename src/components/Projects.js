@@ -3,11 +3,15 @@ import { projectsObj } from "./projectsObj"
 function Projects(){
     let projectsArr = projectsObj.map(project=> 
         <>
-            <div className="project-details" key={project.name}>
+            <div className="project-card" key={project.name}>
                 <li>{project.image}</li>
-                <p>{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">Live app</a>
-                <a href={project.repo} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <div className="project-details">
+                    <div className="details-links">
+                        <p>{project.description}</p>
+                        <li><a href={project.link} target="_blank" rel="noopener noreferrer">Live app</a></li>
+                        <li><a href={project.repo} target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+                    </div>
+                </div>
             </div>
         </>
     )

@@ -7,7 +7,7 @@ import './styleSheets/index.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fluid px-0">
       <Navbar/>
       <About/>
       <Projects/>
