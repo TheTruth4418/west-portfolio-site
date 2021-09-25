@@ -4,15 +4,31 @@
   color: white;
 }
 
+#FGC-Notebook {
+  width: 50%;
+}
+
+#Visioned-Kreations {
+  width: 65%;
+}
+
 .card {
   background: black;
-  width: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 55%;
   border: 2px solid white;
   padding-bottom: 5px;
 }
 
 .card h2 {
   color: white;
+}
+
+.card a {
+  padding-right: 45px;
 }
 
 body {

@@ -4,12 +4,22 @@
     color:white;
 }
 
+#FGC-Notebook{
+    width: 50%;
+}
+#Visioned-Kreations{
+    width:65%;
+}
 .card{
     h2{
         color: white;
     }
+    a{
+        padding-right: 45px;
+    }
     background:black;
-    width: 50%;
+    flex-direction: row;
+    width: 55%;
     border: 2px solid white;
     padding-bottom: 5px;
 }
