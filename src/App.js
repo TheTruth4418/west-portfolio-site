@@ -1,4 +1,5 @@
 import About from './components/About'
+import Home from './components/Home'
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="container-fluid px-0">
       <Navbar/>
+      <Home/>
       <About/>
       <Projects/>
       <Skills/>

@@ -2,6 +2,21 @@
   background: url("hero-backdrop.jpg") no-repeat center;
   background-size: 100%;
   color: white;
-  height: 100vh;
+}
+
+.card {
+  background: black;
+  width: 50%;
+  border: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.card h2 {
+  color: white;
+}
+
+body {
+  background: black;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
