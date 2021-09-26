@@ -15,7 +15,7 @@ function Projects(){
         </div>
     )
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="projects">
             <h1 className="text-center">Projects</h1>
             {projectsArr}
         </div>

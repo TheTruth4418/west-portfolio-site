@@ -1,5 +1,5 @@
 #FGC-Notebook {
-  width: 100%;
+  width: 80%;
 }
 
 #Visioned-Kreations {
@@ -60,14 +60,29 @@
 }
 
 .jumbotron {
-  background: url("hero-backdrop.jpg") no-repeat center;
+  background: url("hero-backdrop2.jpg") no-repeat center;
   background-size: cover;
+  -webkit-box-shadow: 0 0 8px 8px black inset;
+          box-shadow: 0 0 8px 8px black inset;
   height: 100vh;
   color: white;
+}
+
+.jumbotron a {
+  margin: 10px;
 }
 
 body {
   background: black;
   color: white;
+}
+
+.git, .linkedIn {
+  -webkit-filter: invert(99%) sepia(17%) saturate(1025%) hue-rotate(331deg) brightness(116%) contrast(116%);
+          filter: invert(99%) sepia(17%) saturate(1025%) hue-rotate(331deg) brightness(116%) contrast(116%);
+}
+
+.nav-link {
+  color: red;
 }
 /*# sourceMappingURL=index.css.map */

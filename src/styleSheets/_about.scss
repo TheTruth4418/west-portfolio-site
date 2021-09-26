@@ -1,11 +1,19 @@
 .jumbotron{
-    background: url("hero-backdrop.jpg") no-repeat center;
+    background: url("hero-backdrop2.jpg") no-repeat center;
     background-size:cover;
+    box-shadow: 0 0 8px 8px black inset;
     height: 100vh;
     color:white;
+    a{
+        margin: 10px;
+    }
 }
 
 body{
     background:black;
     color:white;
+}
+
+.git, .linkedIn{
+    filter: invert(99%) sepia(17%) saturate(1025%) hue-rotate(331deg) brightness(116%) contrast(116%);
 }
