@@ -1,0 +1,65 @@
+@mixin neon-border{
+    box-shadow: 0 0 .2rem red,
+    0 0 .1rem red,
+    0 0 1rem red,
+    0 0 0.4rem red,
+    0 0 1.4rem red,
+    inset 0 0 1.3rem red;
+}
+
+@mixin neon-button{
+    box-shadow: 0 0 .1rem red,
+    0 0 .05rem red,
+    0 0 .5rem red,
+    0 0 0.2rem red,
+    0 0 .7rem red,
+    inset 0 0 .65rem red;
+}
+
+#FGC-Notebook{
+    width: 100%;
+}
+#Visioned-Kreations{
+    width:100%;
+}
+
+.nav{
+    justify-content: center;
+}
+.card{
+    h2{
+        color: white;
+    }
+    a{
+        padding-right: 45px;
+    }
+    background:black;
+    width:65%;
+    border: 2px solid red;
+    padding-bottom: 5px;
+    @include neon-border();
+    .card-body{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .btn{
+        margin:5px;
+        border-color: red;
+        color: red;
+        text-align: center;
+        @include neon-button();
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card{
+        flex-direction: row;
+        height:80%;
+        #FGC-Notebook{
+            width: 40%;
+        }
+        #Visioned-Kreations{
+            width:75%;
+        }
+    }
+}

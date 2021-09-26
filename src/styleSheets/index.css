@@ -1,26 +1,24 @@
-.jumbotron {
-  background: url("hero-backdrop.jpg") no-repeat center;
-  background-size: 100%;
-  color: white;
-}
-
 #FGC-Notebook {
-  width: 50%;
+  width: 100%;
 }
 
 #Visioned-Kreations {
-  width: 65%;
+  width: 100%;
+}
+
+.nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card {
   background: black;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 55%;
-  border: 2px solid white;
+  width: 65%;
+  border: 2px solid red;
   padding-bottom: 5px;
+  -webkit-box-shadow: 0 0 .2rem red, 0 0 .1rem red, 0 0 1rem red, 0 0 0.4rem red, 0 0 1.4rem red, inset 0 0 1.3rem red;
+          box-shadow: 0 0 .2rem red, 0 0 .1rem red, 0 0 1rem red, 0 0 0.4rem red, 0 0 1.4rem red, inset 0 0 1.3rem red;
 }
 
 .card h2 {
@@ -29,6 +27,43 @@
 
 .card a {
   padding-right: 45px;
+}
+
+.card .card-body {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card .btn {
+  margin: 5px;
+  border-color: red;
+  color: red;
+  text-align: center;
+  -webkit-box-shadow: 0 0 .1rem red, 0 0 .05rem red, 0 0 .5rem red, 0 0 0.2rem red, 0 0 .7rem red, inset 0 0 .65rem red;
+          box-shadow: 0 0 .1rem red, 0 0 .05rem red, 0 0 .5rem red, 0 0 0.2rem red, 0 0 .7rem red, inset 0 0 .65rem red;
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 80%;
+  }
+  .card #FGC-Notebook {
+    width: 40%;
+  }
+  .card #Visioned-Kreations {
+    width: 75%;
+  }
+}
+
+.jumbotron {
+  background: url("hero-backdrop.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
 }
 
 body {
