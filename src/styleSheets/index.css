@@ -62,8 +62,8 @@
 .jumbotron {
   background: url("hero-backdrop2.jpg") no-repeat center;
   background-size: cover;
-  -webkit-box-shadow: 0 0 8px 8px black inset;
-          box-shadow: 0 0 8px 8px black inset;
+  -webkit-box-shadow: 0 0 8px 8px white inset;
+          box-shadow: 0 0 8px 8px white inset;
   height: 100vh;
   color: white;
 }
@@ -83,6 +83,6 @@ body {
 }
 
 .nav-link {
-  color: red;
+  color: blue;
 }
 /*# sourceMappingURL=index.css.map */

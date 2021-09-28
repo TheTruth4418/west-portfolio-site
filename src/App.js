@@ -8,7 +8,7 @@ import './styleSheets/index.css'
 
 function App() {
   return (
-    <div className="container-fluid px-0">
+    <div className="container-fluid px-0" id="root">
       <Navbar/>
       <Home/>
       <About/>
