@@ -1,20 +1,9 @@
 function Contact(){
     return (
-        <div id="contact">
-            <h2>Contact</h2>
-            <form>
-                <label>Name:</label>
-                <input type="text"/>
-                <br/>
-
-                <label>Email:</label>
-                <input type="text"/>
-                <br/>
-
-                <label>Message:</label>
-                <textarea name="message" rows="4" cols="50"/>
-                <br/>
-            </form>
+        <div className="container-fluid text-center" id="contact">
+            <h2 className="">Contact</h2>
+            <p className="">Feel free to contact me about anything below!</p>
+            <a href="mailto:william.west.322@gmail.com">Email me!</a>
         </div>
     )
 }

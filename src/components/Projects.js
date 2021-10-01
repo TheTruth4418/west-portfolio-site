@@ -2,8 +2,8 @@ import { projectsObj } from "./projectsObj"
 
 function Projects(){
     let projectsArr = projectsObj.map(project=> 
-        <div className="row justify-content-center p-4">
-            <div className="card text-center" key={project.name}>
+        <div className="row justify-content-center p-4" key={project.title}>
+            <div className="card text-center">
                 {project.image}
                     <div className="card-body">
                         <h2 className="card-title">{project.title}</h2><br/>

@@ -6,12 +6,12 @@ function Navbar(){
         window.open(resume,'height=250,width=250');
     }
     return (
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-md navbar-dark sticky-top">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
                     <a className="nav-link" arria-current="page" href="/#projects">Projects</a>

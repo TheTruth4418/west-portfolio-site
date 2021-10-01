@@ -72,9 +72,10 @@
   margin: 10px;
 }
 
-body {
+html, body {
   background: black;
   color: white;
+  overflow-x: hidden;
 }
 
 .git, .linkedIn {
